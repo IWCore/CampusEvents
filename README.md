@@ -2,7 +2,7 @@
 
 **Name:** P. G. I. W. Dharmasiri  
 **Student ID:** PE/2022/053 
-**Demo video:** PASTE YOUR UNLISTED YOUTUBE / GOOGLE DRIVE LINK HERE
+**Demo video:** https://drive.google.com/file/d/1F973o1A9lXjcAp6VzHofJc1o2HydOizs/view?usp=sharing
 
 ## 1. What is the app?
 Campus Events is a mobile app for university students to discover campus events (hackathons, sports finals, cultural nights, career fairs), bookmark favourites and get reminders. Event information is usually scattered across posters and social media groups; this app puts it in one place with filtering, bookmarking and reminders.
