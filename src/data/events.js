@@ -1,0 +1,75 @@
+const img = (seed) => `https://picsum.photos/seed/${seed}/600/400`;
+
+export const CATEGORIES = ['All', 'Tech', 'Sports', 'Arts', 'Career'];
+
+export const EVENTS = [
+  { id: '1', 
+    title: 'Hackathon 2026', 
+    category: 'Tech', 
+    date: '5 Dec 2026', 
+    time: '9:00 AM', 
+    location: 'Computer Lab 3, FCT', 
+    image: "https://images.unsplash.com/photo-1756273343749-63f7d6ea0cda?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D", 
+    description: '24-hour coding challenge. Teams of 4 build a solution for a real campus problem. Prizes worth Rs. 150,000.' 
+  },
+  { id: '2', 
+    title: 'Inter-Faculty Cricket Final', 
+    category: 'Sports', date: '28 Nov 2026', 
+    time: '2:30 PM', 
+    location: 'University Ground', 
+    image: "https://plus.unsplash.com/premium_photo-1661890079209-72b76e49768f?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D", 
+    description: 'Faculty of Science takes on Faculty of Commerce in the big final. Free entry for all students.' 
+  },
+  { id: '3', 
+    title: 'Cultural Night: Rhythm of Lanka', 
+    category: 'Arts', 
+    date: '12 Dec 2026', 
+    time: '6:00 PM', 
+    location: 'Main Auditorium', 
+    image: "https://images.unsplash.com/photo-1761229660979-4c47d4efafe7?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D", 
+    description: 'An evening of traditional dance, drumming and modern fusion performances by student societies.' 
+  },
+  { id: '4', 
+    title: 'Career Fair 2026', 
+    category: 'Career', date: '20 Nov 2026', 
+    time: '10:00 AM', 
+    location: 'Senate Building Hall', 
+    image: "https://images.unsplash.com/photo-1781038507273-1fdfa5646893?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D", 
+    description: 'Meet 40+ employers from IT, banking and manufacturing. Bring printed copies of your CV.' 
+  },
+  { id: '5', 
+    title: 'Intro to React Native Workshop', 
+    category: 'Tech', 
+    date: '25 Nov 2026', 
+    time: '1:00 PM', 
+    location: 'Lab 2, Dept. of Statistics & CS', 
+    image: "https://images.unsplash.com/photo-1632910121591-29e2484c0259?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D", 
+    description: 'Hands-on session covering Expo Router, state management and local notifications.' 
+  },
+  { id: '6', 
+    title: 'Photography Exhibition', 
+    category: 'Arts', 
+    date: '3 Dec 2026', 
+    time: '11:00 AM', 
+    location: 'Library Gallery', 
+    image: "https://images.unsplash.com/photo-1765920774183-9c0841be77c0?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D", 
+    description: 'Showcasing 60 photographs by the University Photography Circle on the theme "Everyday Colombo".' 
+  },
+  { id: '7', 
+    title: 'Inter-University Rugby Sevens', 
+    category: 'Sports', 
+    date: '8 Dec 2026', 
+    time: '4:00 PM', 
+    location: 'Sports Complex', 
+    image: "https://images.unsplash.com/photo-1698746019802-ec43b1b0db29?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D", 
+    description: 'Eight universities compete in the annual sevens tournament. Come cheer for Kelaniya!'
+  },
+  { id: '8', 
+    title: 'CV & Interview Skills Clinic', 
+    category: 'Career', date: '23 Nov 2026', 
+    time: '3:00 PM', 
+    location: 'Career Guidance Unit', 
+    image: "https://plus.unsplash.com/premium_photo-1661306465544-cc55151ab336?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D", 
+    description: 'One-on-one CV reviews and mock interviews with HR professionals from industry partners.'
+  },
+];
